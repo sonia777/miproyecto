@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Contacto</title>
+</head>
+<body>
+<h2 class='title'>Consultas</h2> 
+<div class='clearfix'></div>
+<form action='' method='post' class='form-consulta' name="frmConsulta" id="frmConsulta">
+	<label>Apellido:</label>
+	<input name='txtapellido' type='text' id="txtapellido" title="Ingrese Apellido" size=20/>
+						
+	<label>Nombre:</label>
+	<input name='txtnombre' type='text' id="txtnombre" title="Ingrese Nombre" size=20/>						
+	<div class='clearfix'></div>
+						
+	<label>E-mail:</label>
+	<input name='txtemail' type='text' id="txtemail" class="required email" title="Ingrese Email Correcto" size=20/>
+	<div class='clearfix'></div>
+						
+    <label>Consulta:</label>
+	<textarea name='txtconsulta' cols=30 rows=10 id="txtconsulta"></textarea>
+    <br /><br />
+   
+	<input name="botonEnviar" type="hidden" value="Enviar" />
+	<input type='submit' value='Enviar'/>
+</form>
+</body>
+</html>

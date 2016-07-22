@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Web </title>
+</head>
+<body  onload="carga();">
+  
+   <div id="formulario_registro"> 
+   <form  action="loginweb.jr" method="post" onsubmit="return valideDatos();">
+                <table>
+                <tr>
+                <td> Registrarse </td>
+                </tr>
+                <tr>
+                <td>Usuario</td>
+                <td><input type="text" id ="usuario" name="usuario"> </td> 
+                </tr>
+                <tr>
+                <td>Password</td>
+                <td><input type="password" id ="password" name="password"> </td> 
+                </tr>
+                <tr>
+                <td><input type="button" value="Cancelar"> </td>
+                <td><input type="submit" value="Aceptar"> </td>
+                </tr>
+                </table>   
+          </form> 
+</div> 
+</body>
+</html>
